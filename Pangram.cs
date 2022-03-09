@@ -33,12 +33,11 @@ class Result
             for(int i = 0; i< alphabet.Length; i++){
                 if(s.Contains(Char.ToLower(alphabet[i]))){
                     count++;
-                      Console.WriteLine(alphabet[i]);
                 }
                     
             }
         }
-        Console.WriteLine(count);
+        
         if(count == 26)
             return "pangram";
             
